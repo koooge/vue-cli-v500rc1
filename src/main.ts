@@ -4,6 +4,8 @@ import vuetify from './plugins/vuetify'
 
 Vue.config.productionTip = false
 
+console.log(({} as any)?.foo);
+
 new Vue({
   vuetify,
   render: h => h(App)
